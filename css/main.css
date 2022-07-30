@@ -10,3 +10,14 @@ body {
     font-family: var(--sm-font);
 }
 
+/* <!-- Navbar ---- --> */
+
+.navbar-brand img{
+    width: 30px;
+}
+#brand-name{
+        letter-spacing: 2px;
+        font-family: var(--lgfont);
+}
+.navbar {box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}

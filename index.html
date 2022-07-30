@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar py-4">
       <div class="container">
         <a
           href="index.html"
@@ -36,20 +36,54 @@
         </a>
 
         <div class="nav-btns">
-          <button class="btn position-relative">
+          <button class="btn position-relative" type="button">
             <i class="fa fa-shopping-cart"></i>
             <span
               class="badge position-absolute top-0 bg-primary translate-middle start-100"
               >5</span
             >
           </button>
-          <button class="btn position-relative"">
+          <button class="btn position-relative" type="button">
             <i class="fa fa-heart"></i>
-            <span class="badge position-absolute top-0 bg-primary translate-middle start-100">2</span>
+            <span
+              class="badge position-absolute top-0 bg-primary translate-middle start-100"
+              >2</span
+            >
           </button>
-          <button class="btn">
+          <button class="btn" type="button">
             <i class="fa fa-search"></i>
           </button>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a href="#home" class="nav-link"></a>HOME
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#collection" class="nav-link"></a>COLLECTOR
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#specials" class="nav-link"></a>SPECIALS
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#blogs" class="nav-link"></a>BLOGS
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#about-us" class="nav-link"></a>ABOUT US
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#popular" class="nav-link"></a>POPULAR
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
